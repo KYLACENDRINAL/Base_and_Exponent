@@ -3,6 +3,11 @@
 # pseudocode
 
 # Define the function of exponent
+def exponent(base, exp):
+    result=1
+    for _ in range(exp):
+        result*=base
+    return result
 
 # Testing Case 1
 
